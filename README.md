@@ -26,11 +26,11 @@
         </p>
     <li><h3><a href="https://github.com/SKY-ROY/DevDen-Assignment/blob/main/Assets/Scripts/Tests/ItemElement.cs">ItemElement.cs</a></h3></li>
         <p>
-            To implement and use the <a href="https://github.com/disas69/Unity-Pooled-Scroll-List#:~:text=An%20extension%20for%20Unity%20UI,vertical%20and%20grid%20layout%20groups.">extension</a>, it is necessary to create and implement a class inherited from PooledElement<T1> and attach it to the prefab that is displayed in your scroll. This is the class which inherits from PooledElement<T1> and implements getter and setter for Item and ItemData class.
+            To implement and use the <a href="https://github.com/disas69/Unity-Pooled-Scroll-List#:~:text=An%20extension%20for%20Unity%20UI,vertical%20and%20grid%20layout%20groups.">extension</a>, it is necessary to create and implement a class inherited from PooledElement<T1> and attach it to the prefab that is displayed in the scroll. This is the class which inherits from PooledElement<T1> and implements getter and setter for Item and ItemData class.
         </p>
     <li><h3><a href="https://github.com/SKY-ROY/DevDen-Assignment/blob/main/Assets/Scripts/Tests/ItemLayoutController.cs">ItemLayoutController.cs</a></h3></li>
         <p>
-            An instance of this class is attached to the GameObject the holds the ScrollRect Component. It takes item prefab (specific to each scroll view for display) so the queue can be populated by intances of those prefabs. Similar to ItemElement's relation with PooledElement<> to instantiate the prefab objects through pooling, this class inherits from PooledLayoutController<T1, T2> to recycle the items that are outside of of ViewPort and prepared them for display of next items in the scroll list.
+            An instance of this class is attached to the GameObject the holds the ScrollRect Component. It takes item prefab (specific to each scroll view for display) so the queue can be populated by intances of those prefabs. Similar to ItemElement's relation with PooledElement<T1> to instantiate the prefab objects through pooling, this class inherits from PooledLayoutController<T1, T2> to recycle the items that are outside of of ViewPort and prepared them for display of next items in the scroll list.
         </p>
     <li><h3><a href="https://github.com/SKY-ROY/DevDen-Assignment/blob/main/Assets/Scripts/Tests/PooledScrollTest.cs">PooledScrollTest.cs</a></h3></li>
         <p>
