@@ -37,3 +37,4 @@
             This class is specific to scene and use case for the scroll view, as it holds the list of colors to apply on item(prefab) and the list of textures to apply on the RawImage in each item(prefab) based on the index of the element in the lists.
         </p>
 </ol>
+<p>PROJECT FAILED</p>
